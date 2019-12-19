@@ -1,0 +1,43 @@
+compinfo:
+  {
+    "codefiles":["ass-a4.c"],
+    "libfile":"../../../ass-a4.so",
+    "binary":"../ass-a4",
+    "assignment_root":"../"
+  }
+testcases:
+  [
+    {"name":"test1",
+              "description":"basic",
+              "result":"Zeitung - correct\n
+              instrument - correct\n
+              unterstützen - correct\n
+              patient - correct\n
+              national - correct\n
+              bottom - correct\n
+              6 / 6",
+              "return":0,
+              "mode":"io",
+              "infile":"infiles/in01.txt",
+              "args":"./infiles/cfg01.txt"},
+  {"name":"test4",
+              "description":"spaces",
+              "result":"Bestellung - correct\n
+              option - correct\n
+              unterstützen - correct\n
+              answer - correct\n
+              berücksichtigen - correct\n
+              condition - correct\n
+              6 / 6",
+              "return":0,
+              "mode":"io",
+              "infile":"infiles/in04.txt",
+              "args":"./infiles/cfg04.txt"},
+  {"name":"test8",
+              "description":"no arguments",
+              "result":"usage: ./ass-a4 filename\n",
+              "return":1,
+              "mode":"io",
+              "infile":"infiles/in01.txt",
+              "args":""},
+  ]

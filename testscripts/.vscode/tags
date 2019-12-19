@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/3fdf28bc/
+ET	../tc_report.py	/^import xml.etree.ElementTree as ET$/;"	kind:namespace	line:3
+__init__	../tc_runner.py	/^    def __init__(self, desc):$/;"	kind:member	line:60
+__init__	../tc_runner.py	/^    def __init__(self,lib,desc,cwd,binary):$/;"	kind:member	line:135
+assignment_checker	../tc_runner.py	/^class assignment_checker:$/;"	kind:class	line:59
+build	../tc_runner.py	/^    def build(self):$/;"	kind:member	line:67
+build_unit_test	../tc_runner.py	/^    def build_unit_test(self):$/;"	kind:member	line:183
+detail_report	../tc_report.py	/^def detail_report(tc,name,parent,tc_def = None):$/;"	kind:function	line:113
+dmp_lib	../tc_report.py	/^import diff_match_patch as dmp_lib$/;"	kind:namespace	line:2
+dmp_lib	../tc_runner.py	/^import diff_match_patch as dmp_lib$/;"	kind:namespace	line:14
+files	../tc_runner.py	/^    files = glob('.\/tmp\/*')$/;"	kind:variable	line:302
+generateHTMLReport	../tc_report.py	/^def generateHTMLReport(results,description = None):$/;"	kind:function	line:13
+generateSummary	../tc_report.py	/^def generateSummary(p,results,definition):$/;"	kind:function	line:35
+get_blank_result	../tc_runner.py	/^def get_blank_result():$/;"	kind:function	line:36
+get_functions	../tc_runner.py	/^    def get_functions(self):$/;"	kind:member	line:76
+get_pretty_diff	../tc_report.py	/^def get_pretty_diff(jsstring):$/;"	kind:function	line:7
+get_testcases	../tc_runner.py	/^    def get_testcases(self):$/;"	kind:member	line:87
+get_valgrind_output	../tc_runner.py	/^    def get_valgrind_output(self):$/;"	kind:member	line:226
+go	../tc_runner.py	/^    def go(self):$/;"	kind:member	line:107
+magic_char	../tc_runner.py	/^magic_char = '\\b' #Indicates a special input line mixed with output and input$/;"	kind:variable	line:25
+make_diff	../tc_runner.py	/^def make_diff(string1,string2):$/;"	kind:function	line:291
+parse_prototype	../tc_runner.py	/^def parse_prototype(p):$/;"	kind:function	line:47
+pointer_align	../tc_runner.py	/^def pointer_align(x):$/;"	kind:function	line:27
+px	../tc_runner.py	/^import pexpect as px$/;"	kind:namespace	line:11
+replace_tags	../tc_runner.py	/^    def replace_tags(self):$/;"	kind:member	line:159
+report	../tc_report.py	/^    report = generateHTMLReport(results,description = tc_def)$/;"	kind:variable	line:146
+results	../tc_report.py	/^    results = json.load(f)$/;"	kind:variable	line:145
+results	../tc_runner.py	/^            results = ac.go()$/;"	kind:variable	line:314
+run	../tc_runner.py	/^    def run(self):$/;"	kind:member	line:271
+run_as_full_io	../tc_runner.py	/^    def run_as_full_io(self,cmd):$/;"	kind:member	line:250
+run_as_full_testcase	../tc_runner.py	/^    def run_as_full_testcase(self,cmd):$/;"	kind:member	line:189
+run_as_unit_test	../tc_runner.py	/^    def run_as_unit_test(self,cmd):$/;"	kind:member	line:231
+sh	../tc_runner.py	/^import shutil as sh$/;"	kind:namespace	line:7
+sp	../tc_runner.py	/^import subprocess as sp$/;"	kind:namespace	line:5
+tc_def	../tc_report.py	/^    tc_def = yaml.load(f,Loader=yaml.FullLoader)$/;"	kind:variable	line:142
+tc_report.py	../tc_report.py	1;"	kind:file	line:1
+tc_runner	../tc_runner.py	/^class tc_runner:$/;"	kind:class	line:134
+tc_runner.py	../tc_runner.py	1;"	kind:file	line:1
